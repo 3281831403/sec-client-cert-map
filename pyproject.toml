@@ -1,0 +1,10 @@
+[project]
+name = "sec-client-cert-map"
+version = "0.1.0"
+description = "Client certificate to account mapping priority bugfix task"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
